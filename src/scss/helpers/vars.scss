@@ -1,0 +1,30 @@
+$fontFamily: 'Roboto';
+$fontSize: 14;
+
+$textColor: rgba(#000, 0.5);
+$textColorLight: #fff;
+$textColorDark: #000;
+$titleColor: #342f45;
+$accentColor: #278fb4;
+$accentColorSecondary: #237b9a;
+$bgColor: #126893;
+$borderColorLight: #e8e8e8;
+$borderColorDark: #979797;
+
+$maxWidthContainer: 1240;
+$minWidth: 375;
+$containerPadding: 30;
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+$tablet: 991.98px;
+$mobile: 767.98px;
+$mobileSmall: 479.98px;
+
+:root {
+  --animation-duration: 500ms;
+  --maxContainerWidth: #{$maxWidthContainer};
+  --containerPadding: #{$containerPadding}px;
+  --containerWidth: #{$containerWidth};
+  --tablet: #{$tablet};
+  --mobileSmall: #{$mobileSmall};
+}

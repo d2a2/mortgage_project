@@ -1,0 +1,184 @@
+@import '../../scss/helpers/vars.scss';
+@import '../../scss/base/global.scss';
+@import '../../scss/base/common.scss';
+
+
+.header {
+  &__container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    max-width: 1392px;
+  }
+}
+.menu {
+  @media (min-width: $mobile) {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(#878787, 0.6);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    cursor: pointer;
+
+    &--active {
+      opacity: 1;
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100vh;
+      width: 100vw;
+      background-color: rgba(#878787, 0.6);
+      opacity: 1;
+      transition: all 0.3s ease-in-out;
+      z-index: 10;
+      cursor: pointer;
+    }
+  }
+
+  &--active .menu__body {
+    left: 0;
+  }
+
+  &__body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 44px;
+    width: 50%;
+    min-width: 440px;
+    height: 100%;
+    padding: 30px 100px 30px 44px;
+    transition: left 0.3s ease-in-out;
+    overflow: auto;
+    background-color: #fff;
+    z-index: 10;
+
+    @media (max-width: $mobile) {
+      width: 100%;
+      min-width: 100%;
+    }
+
+    @media (max-width: $mobileSmall) {
+      gap: 30px;
+      padding: 30px;
+    }
+  }
+
+  .menu__close {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    margin-top: 13px;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 18px;
+      height: 2px;
+      background-color: #000;
+      border-radius: 2px;
+    }
+
+    &::before {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &::after {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+
+  &__logo {
+    margin-bottom: 70px;
+
+    @media (max-width: $mobile) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    height: 100%;
+  }
+
+  &__list {
+    flex: 1 1 auto;
+
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 34px;
+    }
+
+    @media (max-width: $mobile) {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &__link {
+    color: $titleColor;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    
+    
+    @media (max-width: $mobile) {
+      padding: 10px 0;
+    }
+
+    @media (any-hover: hover) {
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: $accentColor;
+      }
+    }
+  }
+}
+
+.menu-btn {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 52px;
+  gap: 4px;
+  width: 52px;
+  height: 52px;
+  border-radius: 6px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 5px 17px 0 rgba(0, 0, 0, 0.1);
+
+  span {
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: rgba(#000, 0.6);
+  }
+}
