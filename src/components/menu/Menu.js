@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import './menu.scss';
-import '../../scss/base/common.scss';
-import '../../scss/base/global.scss';
-import '../../scss/helpers/null.scss';
+import '../../style/base/common.scss';
+import '../../style/base/global.scss';
+import '../../style/helpers/null.scss';
 
-import close from '../../svgicons/x.svg';
-import logo from '../../img/logo.png';
-import arrow from '../../svgicons/arrow.svg';
+import close from '../../assets/svgicons/x.svg';
+import logo from '../../assets/img/logo.png';
+import arrow from '../../assets/svgicons/arrow.svg';
 
 const Menu = () => {
 
@@ -20,7 +20,7 @@ const Menu = () => {
       <span></span>
       <span></span>
     </button>
-    <div className={menuActive ? "menu--active" : "menu"}>
+    <div className={menuActive ? "menu menu--active" : "menu"}>
       <nav className="menu__body">
         <button onClick={()=> setMenuActive(false)} type="button" className="menu__close">
           <img src={close} alt="close"/>

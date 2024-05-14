@@ -1,11 +1,9 @@
 import './home.scss';
 
-
-
-import promoBG from '../../img/promo-bg.jpeg';
-import logo from '../../img/logo.png';
-import play from '../../svgicons/play.svg';
-import arrow from '../../svgicons/arrow.svg';
+import promoBG from '../../assets/img/promo-bg.jpeg';
+import logo from '../../assets/img/logo.png';
+import play from '../../assets/svgicons/play.svg';
+import arrow from '../../assets/svgicons/arrow.svg';
 
 
 const Promo = () =>{

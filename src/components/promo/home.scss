@@ -1,5 +1,5 @@
-@import '../../scss/helpers/vars.scss';
-@import '../../scss/helpers/mixins.scss';
+@import '../../style/helpers/vars.scss';
+@import '../../style/helpers/mixins.scss';
 
 .promo {
   @extend %section !optional;
@@ -153,30 +153,6 @@
     gap: 15px 20px;
   }
 }
-.mentors {
-  @extend %section !optional;
-
-  &__head {
-    @include adaptiveValue('margin-bottom', 65, 30);
-    text-align: center;
-  }
-
-  &__cards {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(auto, 512px));
-    justify-content: center;
-    row-gap: 32px;
-    @include adaptiveValue('column-gap', 64, 30, $containerWidth, 768);
-
-    @media (max-width: $mobile) {
-      grid-template-columns: minmax(auto, 512px);
-    }
-
-    @media (max-width: $mobileSmall) {
-      row-gap: 15px;
-    }
-  }
-}
 
 .tutorials {
   @extend %section !optional;
@@ -221,7 +197,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 1px;
-    background: url('../../img/icons/pagination-decor.svg') center;
+    background: url('../../assets/img/icons/pagination-decor.svg') center;
     z-index: -1;
   }
 

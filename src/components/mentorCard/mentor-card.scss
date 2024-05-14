@@ -1,4 +1,34 @@
+@import '../../style/helpers/vars.scss';
+@import '../../style/helpers/mixins.scss';
+
+.mentors {
+  @extend %section !optional;
+  margin-top: 100px;
+
+  &__head {
+    @include adaptiveValue('margin-bottom', 65, 30);
+    text-align: center;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 512px));
+    justify-content: center;
+    row-gap: 32px;
+    @include adaptiveValue('column-gap', 64, 30, $containerWidth, 768);
+
+    @media (max-width: $mobile) {
+      grid-template-columns: minmax(auto, 512px);
+    }
+
+    @media (max-width: $mobileSmall) {
+      row-gap: 15px;
+    }
+  }
+}
+
 .mentor-card {
+  
   max-width: 996px;
   margin: 0 auto;
 
@@ -46,10 +76,18 @@
     line-height: 15px;
   }
 
+  &__name {
+    color: rgba(52, 47, 69);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 5px 0 39px 0;
+  }
+
   &__body {
     padding: 30px;
     border-radius: 4px;
     box-shadow: 0 27px 58px 0 rgba(25, 78, 96, 0.14);
+    position: relative;
 
     @media (max-width: $mobileSmall) {
       padding: 20px;
@@ -95,6 +133,9 @@
     flex-direction: column;
     gap: 5px;
     margin-bottom: 18px;
+    color: $textColorDark;
+    font-weight: 700;
+
 
     @media (max-width: $mobile) {
       margin-bottom: 10px;

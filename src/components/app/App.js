@@ -1,6 +1,6 @@
-
 import Menu from "../menu/Menu";
 import Promo from "../promo/Promo";
+import MentorCard from "../mentorCard/MentorCard";
 
 const App = () => {
  
@@ -8,6 +8,7 @@ const App = () => {
     <>
     <Menu/>
     <Promo/>
+    <MentorCard/>
     </>
   );
 }
