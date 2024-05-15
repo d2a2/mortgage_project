@@ -8,8 +8,6 @@ import arrow from '../../assets/svgicons/arrow.svg';
 
 const Promo = () =>{
 
-	
-
     return(
         <section className="promo">
 		<div className="promo__inner">

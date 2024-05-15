@@ -5,7 +5,6 @@ import useMortgageService from '../../services/useMortgageService';
 
 import './mentor-card.scss';
 
-
 import play from '../../assets/svgicons/play.svg';
 
 const MentorCard = () => {
