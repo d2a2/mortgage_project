@@ -2,13 +2,14 @@ import { useHttp } from '../hooks/http.hook';
 
 const useMortgageService = () =>{
     const {loading, request, error} = useHttp(); 
+    const serverUrl = 'http://localhost:5001/'
 
 
     const getAllMentors = async () => {
-        return await request("http://localhost:3001/mentors");
+        return await request(`${serverUrl}mentors`);
     }
 
-    return {loading, error, getAllMentors};
+    return {loading, error, getAllMentors, serverUrl};
 };
 
 
