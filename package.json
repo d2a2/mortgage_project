@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"npx json-server mentors.json --port 3001\"",
+    "start": "concurrently \"react-scripts start\" \"node server/app.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,7 +38,11 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
     "json-server": "^1.0.0-alpha.23",
-    "sass": "^1.72.0"
+    "path": "^0.12.7",
+    "sass": "^1.72.0",
+    "youtube-player": "^5.6.0"
   }
 }

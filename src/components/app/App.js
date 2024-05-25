@@ -1,7 +1,7 @@
 import Menu from "../menu/Menu";
 import Promo from "../promo/Promo";
 import MentorCard from "../mentorCard/MentorCard";
-import TutorialsStep from "../tutorialsStep/TutorialsStep";
+import StepSlider from "../stepSlider/StepSlider";
 
 const App = () => {
  
@@ -10,7 +10,7 @@ const App = () => {
     <Menu/>
     <Promo/>
     <MentorCard/>
-    <TutorialsStep/>
+    <StepSlider/>
     </>
   );
 }

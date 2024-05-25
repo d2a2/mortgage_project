@@ -3,6 +3,7 @@
 
 .tutorials {
   @extend %section !optional;
+  margin-top: 104px;
 
   &__container {
     @include adaptiveValue('padding-left', 59, 40, $containerWidth, 992);
@@ -44,12 +45,13 @@
     left: 50%;
     transform: translateX(-50%);
     width: 1px;
-    height: 457px;
+    height: 420px;
     z-index: -1;
-    background: url('../../assets/img/icons/pagination-decor.svg') center;
+    background: url('../../assets/img/icons/pagination-decor.svg') center;  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+   
   }
 
   &__pagination-dot {
@@ -60,9 +62,12 @@
     border: 1px solid #ccc;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
+    
+    
+    
 
     &--active,
-    &--hover {
+    &:hover {
       background-color: $accentColor;
       border-color: $accentColor;
     }
@@ -81,8 +86,9 @@
       animation: pulse-dot 1.5s infinite;
     }
 
-    &--hover {
+    &:hover {
       cursor: pointer;
+
 
       &::before {
         visibility: visible;
@@ -112,12 +118,12 @@
       background-color 0.3s ease-in-out,
       border-color 0.3s ease-in-out;
 
-    &--hover,
+    &:hover,
     &--active {
       background-color: $accentColor;
       border-color: $accentColor;
 
-      .tutorials-step__inner::before {
+      .tutorials-step__inner--number {
         color: rgba(#fff, 0.5);
       }
 
@@ -210,7 +216,7 @@
     position: relative;
     padding-top: 22px;
 
-    &::before {
+    &--number {
       counter-increment: steps-counter;
       content: '0' counter(steps-counter);
       position: absolute;
