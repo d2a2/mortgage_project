@@ -1,9 +1,13 @@
+@import '../../style/helpers/vars.scss';
+@import '../../style/helpers/mixins.scss';
+
 .reviews-slide {
   max-width: 480px;
   padding: 24px 32px 28px;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   box-shadow: 20px 12px 20px 0 rgba(25, 78, 96, 0.05);
+  
 
   @media (max-width: $mobile) {
     padding: 20px;
@@ -55,6 +59,7 @@
   &__content {
     padding-top: 26px;
     border-top: 1px solid rgba($borderColorDark, 0.2);
+    padding-bottom: 29px;
 
     @media (max-width: $mobile) {
       padding-top: 15px;
@@ -76,7 +81,7 @@
       left: 0;
       width: 32px;
       height: 25px;
-      background: url('@img/icons/left-quote.svg') center no-repeat;
+      background: url('../../assets/img/icons/left-quote.svg') center no-repeat;
     }
   }
 }

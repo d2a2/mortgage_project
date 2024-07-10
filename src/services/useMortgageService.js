@@ -9,7 +9,11 @@ const useMortgageService = () =>{
         return await request(`${serverUrl}mentors`);
     }
 
-    return {loading, error, getAllMentors, serverUrl};
+    const getAllReviews = async () =>{
+        return await request(`${serverUrl}reviews`);
+    }
+
+    return {loading, error, getAllMentors, serverUrl, getAllReviews};
 };
 
 

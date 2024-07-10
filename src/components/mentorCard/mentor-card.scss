@@ -110,7 +110,7 @@
         grid-template-columns: minmax(auto, 365px) auto;
         align-items: center;
         gap: 50px;
-        padding: 40px 136px 0px 83px;
+        padding: 40px 136px 28px 83px;
         min-height: 250px;
         @include adaptiveValue('padding-left', 5, 40, $containerWidth, 768);
         @include adaptiveValue('padding-right', 136, 40, $containerWidth, 768);

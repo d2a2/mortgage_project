@@ -1,13 +1,15 @@
-<svg width="22.000000" height="22.000000" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="49.000000" height="49.000000" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<desc>
 			Created with Pixso.
 	</desc>
 	<defs/>
-	<path id="Oval" d="M21 11C21 5.47 16.52 1 11 1C5.47 1 1 5.47 1 11C1 16.52 5.47 21 11 21C16.52 21 21 16.52 21 11Z" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
-	<path id="Oval" d="M15 11C15 8.79 13.2 7 11 7C8.79 7 7 8.79 7 11C7 13.2 8.79 15 11 15C13.2 15 15 13.2 15 11Z" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
-	<path id="Shape" d="M3.92 3.92L8.16 8.16" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-	<path id="Shape" d="M13.83 13.83L18.07 18.06" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-	<path id="Shape" d="M13.83 8.16L18.07 3.92" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-	<path id="Shape" d="M13.83 8.17L17.36 4.64" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-	<path id="Shape" d="M3.92 18.06L8.16 13.83" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Oval 2" d="M24.5 48.5C37.75 48.5 48.5 37.75 48.5 24.5C48.5 11.24 37.75 0.5 24.5 0.5C11.24 0.5 0.5 11.24 0.5 24.5C0.5 37.75 11.24 48.5 24.5 48.5Z" fill="#FCFCFC" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Oval 2" d="M48.5 24.5C48.5 11.24 37.75 0.5 24.5 0.5C11.24 0.5 0.5 11.24 0.5 24.5C0.5 37.75 11.24 48.5 24.5 48.5C37.75 48.5 48.5 37.75 48.5 24.5Z" stroke="#E8E8E8" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<path id="Oval" d="M34.5 24.5C34.5 18.97 30.02 14.5 24.5 14.5C18.97 14.5 14.5 18.97 14.5 24.5C14.5 30.02 18.97 34.5 24.5 34.5C30.02 34.5 34.5 30.02 34.5 24.5Z" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+	<path id="Oval" d="M28.5 24.5C28.5 22.29 26.7 20.5 24.5 20.5C22.29 20.5 20.5 22.29 20.5 24.5C20.5 26.7 22.29 28.5 24.5 28.5C26.7 28.5 28.5 26.7 28.5 24.5Z" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+	<path id="Shape" d="M17.43 17.43L21.67 21.67" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Shape" d="M27.33 27.33L31.57 31.56" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Shape" d="M27.33 21.67L31.57 17.43" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Shape" d="M27.33 21.67L30.86 18.14" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Shape" d="M17.43 31.56L21.67 27.33" stroke="#278FB4" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
 </svg>

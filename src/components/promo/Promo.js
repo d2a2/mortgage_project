@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './home.scss';
-import Spinner from "../spinner/Spinner";
+
 
 import promoBG from '../../assets/img/promo-bg.jpeg';
 import logo from '../../assets/img/logo.png';
@@ -11,13 +11,14 @@ import arrow from '../../assets/svgicons/arrow.svg';
 const Promo = () =>{
 
 	const [videoDuration, setVideoDuration] = useState(null);
+	const [formattedDuration, setFormattedDuration] = useState('00:00');
+	
 
 
 	useEffect(()=>{
 
 		let player;
 		window.onYouTubeIframeAPIReady = () => {
-			console.log("YouTube Iframe API is ready");
             const player = new window.YT.Player('player', {
                 videoId: 'RLgUEEAgvMg',
                 events: {
@@ -35,12 +36,17 @@ const Promo = () =>{
 
 	
 	function onPlayerReady(event) {
-		console.log("Player is ready");
         const duration = event.target.getDuration();
-        setVideoDuration(duration);
+		setVideoDuration(duration);
+		setFormattedDuration(formatTime(duration));
     }
 
-	const showVideoDuration = videoDuration !==null ? videoDuration : <Spinner/>;
+	const formatTime = (time) =>{
+		const minutes = Math.floor(time / 60);
+		const seconds = Math.floor(time % 60);
+		return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+	}
+	
 
 
     return(
@@ -55,7 +61,7 @@ const Promo = () =>{
 							<a href="https://www.youtube.com/watch?v=RLgUEEAgvMg" target="_blank" className="play">
 								<img src={play} alt='play'/>
                             </a>
-							<div className="time"><span>{showVideoDuration}</span></div>
+							<div className="time"><span>{formattedDuration}</span></div>
 						</div>
 					</div>
 				</div>
@@ -85,6 +91,7 @@ const Promo = () =>{
 					</div>
 				</div>
 			</div>
+			<div id="player" style={{display: "none"}}></div>
 		</div>
 	</section>
     )

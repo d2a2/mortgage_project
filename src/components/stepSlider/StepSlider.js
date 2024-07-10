@@ -71,9 +71,12 @@ const StepSlider = ()=> {
 })
 		const paginate = arr.map((_, index) =>{
 			return ( 
-						<div key={index} onClick={()=> onActivateSlide(index)} className={index === currentIndex ? "tutorials__pagination-dot tutorials__pagination-dot--active" : "tutorials__pagination-dot"}></div>
-				
-			)
+					<div 
+					key={index} 
+					onClick={()=> onActivateSlide(index)} 
+					className={index === currentIndex ? "tutorials__pagination-dot tutorials__pagination-dot--active" : "tutorials__pagination-dot"}>	
+					</div>
+					)
 		})
 
 
@@ -109,7 +112,7 @@ const StepSlider = ()=> {
 							</div>
 					</div>	
 				</div>
-				{active}
+				
 			</section>
 		)
 

@@ -1,0 +1,84 @@
+{
+    "reviews": [
+        {
+            "img": "img/reviews/emily.png",
+            "city": "New York",
+            "name": "Emily Pearson",
+            "title": "Engineer",
+            "icon": "icons/google.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        },
+        {
+            "img": "img/reviews/michael.png",
+            "city": "Los Angeles",
+            "name": "Michael Bronson",
+            "title": "Product designer",
+            "icon": "icons/zillow.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        },
+        {
+            "img": "img/reviews/emily.png",
+            "city": "Orlando",
+            "name": "Emily Bronson",
+            "title": "Designer",
+            "icon": "icons/google.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        },
+        {
+            "img": "img/reviews/michael.png",
+            "city": "San Fransisco",
+            "name": "Marina Mogilko",
+            "title": "Blogger",
+            "icon": "icons/google.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        },
+        {
+            "img": "img/reviews/emily.png",
+            "city": "Miami",
+            "name": "Ivan Ivanov",
+            "title": "Designer",
+            "icon": "icons/google.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        },
+        {
+            "img": "img/reviews/emily.png",
+            "city": "Los Angeles",
+            "name": "Lee Chen",
+            "title": "Designer",
+            "icon": "icons/google.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        },
+        {
+            "img": "img/reviews/emily.png",
+            "city": "San Fransisco",
+            "name": "George W.",
+            "title": "Designer",
+            "icon": "icons/google.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        },
+        {
+            "img": "img/reviews/emily.png",
+            "city": "Orlando",
+            "name": "Orlando Bloom",
+            "title": "Designer",
+            "icon": "icons/google.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        },
+        {
+            "img": "img/reviews/emily.png",
+            "city": "Boston",
+            "name": "Steve Carrell",
+            "title": "Designer",
+            "icon": "icons/google.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        },
+        {
+            "img": "img/reviews/emily.png",
+            "city": "Austin",
+            "name": "Jack Black",
+            "title": "Designer",
+            "icon": "icons/google.svg",
+            "text": "Terms of your offer, how quickly you can turn things around and who your lenders is. advising, calling listing agents, to get your deal done, Offer-Stage advising, calling listing agents, to get your deal done."
+        }
+    ]
+}
